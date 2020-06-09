@@ -1,6 +1,7 @@
 export function managePresents(state, action) {
   switch(action) {
     
-    case
+    case "INCREASE":
+      
   }
 }
