@@ -18,5 +18,9 @@ export function manageFriends(state, action){
       }
       
       break
+      
+    default: 
+      return { ...state }
+      break
   }
 }
