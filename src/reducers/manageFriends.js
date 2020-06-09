@@ -6,6 +6,7 @@ export function manageFriends(state, action){
         ...state,
         friends: [...state.friends, action.friend]
       }
+      
       break
     
     case
