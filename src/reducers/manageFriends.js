@@ -4,7 +4,7 @@ export function manageFriends(state, action){
     case "ADD_FRIEND":
       return {
         ...state,
-        friends: [...state.friends, state.friend]
+        friends: [...state.friends, action.friend]
       }
       break
     
