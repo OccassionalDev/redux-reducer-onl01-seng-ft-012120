@@ -16,5 +16,7 @@ export function manageFriends(state, action){
         ...state,
         friends: [...state.friends.slice(0, removalIndex), ...state.friends.slice(removalIndex + 1)]
       }
+      
+      break
   }
 }
