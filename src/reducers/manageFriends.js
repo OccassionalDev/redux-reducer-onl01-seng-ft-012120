@@ -9,5 +9,9 @@ export function manageFriends(state, action){
       
       break
     
+    case "REMOVE_FRIEND":
+      return {
+        
+      }
   }
 }
