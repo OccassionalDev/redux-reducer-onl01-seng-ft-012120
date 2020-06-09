@@ -14,7 +14,7 @@ export function manageFriends(state, action){
       
       return {
         ...state,
-        friends: [...state.friends.slice(0, removalIndex), ...state.friends.slice(removalIndex + 1)]
+        friends: [...state.friends.slice(0, indexToRemove), ...state.friends.slice(indexToRemove + 1)]
       }
       
       break
