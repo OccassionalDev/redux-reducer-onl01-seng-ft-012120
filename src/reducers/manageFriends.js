@@ -10,6 +10,8 @@ export function manageFriends(state, action){
       break
     
     case "REMOVE_FRIEND":
+      const indexToRemove = 
+      
       return {
         
       }
